@@ -2,7 +2,7 @@
 
 import { useId } from 'react';
 
-const RING_TEXT = 'niwaraa design & build      ·      niwaraa design & build';
+const RING_TEXT = 'niwaraa design & build      ·      niwaraa design & build      ·      ';
  
 type LogoTextRingProps = {
   size?: 'desk' | 'mob';

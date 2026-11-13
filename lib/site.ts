@@ -11,7 +11,7 @@ export const CONTACT_PHONE_DISPLAY = '+91 9689878449';
 /** Digits only, for wa.me / tel links (India). */
 export const CONTACT_PHONE_E164 = '919689878449';
 
-export const DEFAULT_OG_IMAGE = '/images/open-graph.webp';
+export const DEFAULT_OG_IMAGE = '/images/niwaraa-open-graph.jpg';
 
 /** Official Instagram profile (footer + contact social strip). */
 export const INSTAGRAM_URL = 'https://www.instagram.com/niwaraaofficial/';

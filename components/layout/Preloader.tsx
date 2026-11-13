@@ -59,7 +59,7 @@ export function Preloader() {
       </div>
       <div className="preloader_bg">
         <div className="preloader_bg_a">
-          <img src="/images/e22485744735d6f17214f25b6157e9b5_preloader_bg.svg" loading="eager" alt="" className="img" />
+          {/* <img src="/images/e22485744735d6f17214f25b6157e9b5_preloader_bg.svg" loading="eager" alt="" className="img" /> */}
         </div>
         <div className="preloader_bg_decor">
           <div data-wf--decor--variant="large" className="decor">
