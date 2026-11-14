@@ -1116,3 +1116,34 @@ html[data-scroll-locked] .wa-float {
   height: 1px;
   background: var(--_global-colors---brand-500--terracotta);
 }
+/* Desktop: Fix tagline spacing and prevent overlap */
+@media (min-width: 992px) {
+  .hero-s_title {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(max-content, 1fr);
+    align-items: center;
+    column-gap: 56px;
+  }
+
+  .hero-s_title .a-left {
+    justify-self: start;
+    min-width: 0;
+    white-space: nowrap;
+  }
+
+  .hero-s_title .hero-s_tabs {
+    justify-self: center;
+    min-width: max-content;
+    white-space: nowrap;
+  }
+
+  .hero-s_title .a-right {
+    justify-self: end;
+    min-width: max-content;
+    white-space: nowrap;
+  }
+
+  .hero-s_title .a-right .span {
+    white-space: nowrap;
+  }
+}
